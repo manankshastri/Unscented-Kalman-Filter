@@ -1,5 +1,8 @@
 # Unscented Kalman Filter
-<img src="media/ukf_highway_tracked.gif" width="700" height="400" />
+
+<p align='center'>
+ <img src="media/ukf_highway_tracked.gif" width="700" height="400" />
+</p>
 
 In this project, an Unscented Kalman Filter is implemented to estimate the state of multiple cars on a highway using noisy lidar and radar measurements. 
 
@@ -11,7 +14,11 @@ The main program can be built and ran by doing the following from the project to
 4. make
 5. ./ukf_highway
 
-<img src="media/ukf_highway.png" width="700" height="400" />
+---
+
+<p align='center'>
+ <img src="media/ukf_highway.png" width="700" height="400" />
+</p>
 
 `main.cpp` is using `highway.h` to create a straight 3 lane highway environment with 3 traffic cars and the main ego car at the center. 
 The viewer scene is centered around the ego car and the coordinate system is relative to the ego car as well. The ego car is green while the 
