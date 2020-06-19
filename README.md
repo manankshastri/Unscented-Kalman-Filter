@@ -1,7 +1,8 @@
 # Unscented Kalman Filter
 
 <p align='center'>
- <img src="media/ukf_highway_tracked.gif" width="700" height="400" />
+ <img src="media/output11.gif" width="70" height="400" />
+ <img src="media/output22.gif" width="70" height="400" />
 </p>
 
 In this project, an Unscented Kalman Filter is implemented to estimate the state of multiple cars on a highway using noisy lidar and radar measurements. 
